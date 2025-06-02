@@ -1,0 +1,95 @@
+Genkit CLI and Developer UI use cookies and similar technologies from Google
+to deliver and enhance the quality of its services and to analyze usage.
+Learn more at https://policies.google.com/technologies/cookies
+Press "Enter" to continue[Telemetry Server] initialized local file trace store at root: /home/student_01_88860ac9a24a/genkit-intro/.genkit/traces
+Telemetry API running on http://localhost:4033
+Genkit Developer UI: http://localhost:4000
+registering /flow/menuSuggestionFlow
+registering /prompt/ragDataMenu (async)
+registering /executable-prompt/ragDataMenu (async)
+registering /flow/ragMenuQuestion
+registering /flow/indexMenuItems
+Running flow server with flow paths:
+ - /menuSuggestionFlow
+ - /ragMenuQuestion
+ - /indexMenuItems
+Flow server running on http://localhost:8080
+Reflection server (2323) running on http://localhost:3100
+Runtime file written: /home/student_01_88860ac9a24a/genkit-intro/.genkit/runtimes/2323-1748824775844.json
+[info] Input[indexMenuItems, indexMenuItems]
+[info] Output[indexMenuItems, indexMenuItems]
+[info] Paths[indexMenuItems]
+[info] Config[ragMenuQuestion > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001]
+[info] Input[ragMenuQuestion > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Output[ragMenuQuestion > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Input[ragMenuQuestion, ragMenuQuestion]
+[info] Output[ragMenuQuestion, ragMenuQuestion]
+[info] Paths[ragMenuQuestion]
+[info] Config[ragMenuQuestion > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001]
+[info] Input[ragMenuQuestion > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Output[ragMenuQuestion > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Input[ragMenuQuestion, ragMenuQuestion]
+[info] Output[ragMenuQuestion, ragMenuQuestion]
+[info] Paths[ragMenuQuestion]
+[info] Config[ragMenuQuestion > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001]
+[info] Input[ragMenuQuestion > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Output[ragMenuQuestion > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Input[ragMenuQuestion, ragMenuQuestion]
+[info] Output[ragMenuQuestion, ragMenuQuestion]
+[info] Paths[ragMenuQuestion]
+[info] Input[devLocalVectorstore/menu-items, devLocalVectorstore/menu-items]
+[info] Output[devLocalVectorstore/menu-items, devLocalVectorstore/menu-items]
+[info] Paths[devLocalVectorstore/menu-items]
+[Telemetry Server] initialized local file trace store at root: /home/student_01_88860ac9a24a/genkit-intro/.genkit/traces
+Telemetry API running on http://localhost:4033
+Genkit Developer UI: http://localhost:4000
+registering /flow/menuSuggestionFlow
+registering /prompt/ragDataMenu (async)
+registering /executable-prompt/ragDataMenu (async)
+registering /flow/ragMenuQuestion
+registering /flow/indexMenuItems
+Running flow server with flow paths:
+ - /menuSuggestionFlow
+ - /ragMenuQuestion
+ - /indexMenuItems
+Flow server running on http://localhost:8080
+Reflection server (2610) running on http://localhost:3100
+Runtime file written: /home/student_01_88860ac9a24a/genkit-intro/.genkit/runtimes/2610-1748825245405.json
+[info] Config[ragMenuQuestion > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001]
+[info] Input[ragMenuQuestion > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Output[ragMenuQuestion > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Input[ragMenuQuestion, ragMenuQuestion]
+[info] Output[ragMenuQuestion, ragMenuQuestion]
+[info] Paths[ragMenuQuestion]
+[info] Config[ragMenuQuestion > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001]
+[info] Input[ragMenuQuestion > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Output[ragMenuQuestion > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Input[ragMenuQuestion, ragMenuQuestion]
+[info] Output[ragMenuQuestion, ragMenuQuestion]
+[info] Paths[ragMenuQuestion]
+[info] Config[genkitEval/faithfulness > Test Case 51c465f8-647a-41ee-bc66-96ac8b96b8c4 > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001]
+[info] Input[genkitEval/faithfulness > Test Case 51c465f8-647a-41ee-bc66-96ac8b96b8c4 > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Output[genkitEval/faithfulness > Test Case 51c465f8-647a-41ee-bc66-96ac8b96b8c4 > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Config[genkitEval/faithfulness > Test Case 51c465f8-647a-41ee-bc66-96ac8b96b8c4 > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001]
+[info] Input[genkitEval/faithfulness > Test Case 51c465f8-647a-41ee-bc66-96ac8b96b8c4 > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Output[genkitEval/faithfulness > Test Case 51c465f8-647a-41ee-bc66-96ac8b96b8c4 > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Config[genkitEval/faithfulness > Test Case a89a1794-c7d5-466a-b9c4-6baf866ab114 > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001]
+[info] Input[genkitEval/faithfulness > Test Case a89a1794-c7d5-466a-b9c4-6baf866ab114 > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Output[genkitEval/faithfulness > Test Case a89a1794-c7d5-466a-b9c4-6baf866ab114 > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Config[genkitEval/faithfulness > Test Case a89a1794-c7d5-466a-b9c4-6baf866ab114 > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001]
+[info] Input[genkitEval/faithfulness > Test Case a89a1794-c7d5-466a-b9c4-6baf866ab114 > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Output[genkitEval/faithfulness > Test Case a89a1794-c7d5-466a-b9c4-6baf866ab114 > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Input[genkitEval/faithfulness, genkitEval/faithfulness]
+[info] Output[genkitEval/faithfulness, genkitEval/faithfulness]
+[info] Paths[genkitEval/faithfulness]
+[info] Config[genkitEval/answer_relevancy > Test Case 51c465f8-647a-41ee-bc66-96ac8b96b8c4 > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001]
+[info] Input[genkitEval/answer_relevancy > Test Case 51c465f8-647a-41ee-bc66-96ac8b96b8c4 > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Output[genkitEval/answer_relevancy > Test Case 51c465f8-647a-41ee-bc66-96ac8b96b8c4 > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Config[genkitEval/answer_relevancy > Test Case a89a1794-c7d5-466a-b9c4-6baf866ab114 > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001]
+[info] Input[genkitEval/answer_relevancy > Test Case a89a1794-c7d5-466a-b9c4-6baf866ab114 > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Output[genkitEval/answer_relevancy > Test Case a89a1794-c7d5-466a-b9c4-6baf866ab114 > generate > vertexai/gemini-2.0-flash-001, vertexai/gemini-2.0-flash-001] 
+[info] Input[genkitEval/answer_relevancy, genkitEval/answer_relevancy]
+[info] Output[genkitEval/answer_relevancy, genkitEval/answer_relevancy]
+[info] Paths[genkitEval/answer_relevancy]
+Initialized local file dataset store at root: /home/student_01_88860ac9a24a/genkit-intro/.genkit/datasets
+Initialized local file eval store at root: /home/student_01_88860ac9a24a/genkit-intro/.genkit/evals

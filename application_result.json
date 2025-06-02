@@ -1,0 +1,68 @@
+[
+  {
+    "testCaseId": "51c465f8-647a-41ee-bc66-96ac8b96b8c4",
+    "input": {
+      "question": "What's on the menu today?"
+    },
+    "output": {
+      "answer": "{\n  \"menu\": [\n    {\n      \"item\": \"House Salad\",\n      \"price\": \"$8\",\n      \"description\": \"Mixed greens with your choice of dressing.\"\n    },\n    {\n      \"item\": \"Mashed Potatoes\",\n      \"price\": \"$6\",\n      \"description\": \"Creamy mashed potatoes.\"\n    },\n    {\n      \"item\": \"Chicken Wings\",\n      \"price\": \"$10\",\n      \"description\": \"Crispy fried chicken wings tossed in your choice of sauce.\"\n    }\n  ]\n}"
+    },
+    "context": [
+      "House Salad 8 \n Mixed greens with your choice of dressing.",
+      "Mashed Potatoes 6 \n Creamy mashed potatoes.",
+      "Chicken Wings 10 \n Crispy fried chicken wings tossed in your choice of sauce."
+    ],
+    "traceIds": [
+      "11d1eec50a8a8ec79cdd230f427899a8"
+    ],
+    "metrics": [
+      {
+        "evaluator": "/evaluator/genkitEval/faithfulness",
+        "score": 1,
+        "rationale": "The context explicitly mentions \"House Salad\" as part of the menu.; The context states \"House Salad 8\", implying a cost of $8.; The context describes the House Salad as \"Mixed greens with your choice of dressing.\"; The context explicitly mentions \"Mashed Potatoes\" as part of the menu.; The context states \"Mashed Potatoes 6\", implying a cost of $6.; The context describes the Mashed Potatoes as \"Creamy mashed potatoes.\"; The context explicitly mentions \"Chicken Wings\" as part of the menu.; The context states \"Chicken Wings 10\", implying a cost of $10.; The context describes the Chicken Wings as \"Crispy fried chicken wings tossed in your choice of sauce.\"",
+        "traceId": "e5257c23f786abbffc385fdd45e35c9c",
+        "spanId": "1c18774bf8ee8742"
+      },
+      {
+        "evaluator": "/evaluator/genkitEval/answer_relevancy",
+        "score": 0.6635891607544264,
+        "rationale": "Cosine similarity",
+        "traceId": "29f7167269cddb6a30fbb4e1bfe2bbcd",
+        "spanId": "0d405d0460cbbfa4"
+      }
+    ]
+  },
+  {
+    "testCaseId": "a89a1794-c7d5-466a-b9c4-6baf866ab114",
+    "input": {
+      "question": "Are there any burgers in the menu today?"
+    },
+    "output": {
+      "answer": "{\n  \"response\": \"Yes, we have the Classic Cheeseburger for $12 and the Bacon Cheeseburger for $14.\"\n}"
+    },
+    "context": [
+      "House Salad 8 \n Mixed greens with your choice of dressing.",
+      "Bacon Cheeseburger 14 \n A classic cheeseburger with the addition of crispy bacon.",
+      "Classic Cheeseburger 12 \n A juicy beef patty topped with melted American cheese, lettuce, tomato, and onion on a toasted bun."
+    ],
+    "traceIds": [
+      "a48d5c74787031e2bee036c4e4ef3e44"
+    ],
+    "metrics": [
+      {
+        "evaluator": "/evaluator/genkitEval/faithfulness",
+        "score": 1,
+        "rationale": "The description of the Classic Cheeseburger explicitly states its price as $12.; The description of the Bacon Cheeseburger explicitly states its price as $14.",
+        "traceId": "e5257c23f786abbffc385fdd45e35c9c",
+        "spanId": "699062e230c05c10"
+      },
+      {
+        "evaluator": "/evaluator/genkitEval/answer_relevancy",
+        "score": 0.8171605123527046,
+        "rationale": "Cosine similarity",
+        "traceId": "29f7167269cddb6a30fbb4e1bfe2bbcd",
+        "spanId": "85b52081728282b5"
+      }
+    ]
+  }
+]

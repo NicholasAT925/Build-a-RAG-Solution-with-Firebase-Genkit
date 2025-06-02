@@ -1,0 +1,12 @@
+[
+  {
+    "input": {
+        "question": "What's on the menu today?"
+    }
+  },
+  {
+    "input": {
+        "question": "Are there any burgers in the menu today?"
+    }
+  }
+]
